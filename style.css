@@ -1,0 +1,569 @@
+@font-face {
+  src: url('fonts/GothamProBold.ttf');
+  font-family: 'Gotham Pro Bold';
+}
+@font-face {
+  src: url('fonts/GothamProMedium.ttf');
+  font-family: 'Gotham Pro Medium';
+}
+@font-face {
+  src: url('fonts/GothamProRegular.ttf');
+  font-family: 'Gotham Pro Regular';
+}
+body{
+  max-width: 1270px;
+  margin: auto;
+    font-family: 'Gotham Pro Bold';
+}
+header{
+
+}
+.headpiece{
+  background: url('Background.png');
+  background-position-x: -20px;
+  background-position-y: -120px;
+  height: 720px;
+}
+.language{
+  background:rgba(255,255,255,0.9);
+  text-align: right;
+  height: 25px;
+  position: relative;
+  padding-right: 10%;
+  line-height: 35px;
+}
+.language a{
+  text-decoration: none;
+  color:#cccccc;
+  font-size: 14px;
+}
+.language a:visited{
+  color:#000;
+}
+.wrapper{
+  width: 90%;
+  margin: auto;
+}
+.consult{
+  position: relative;
+  text-align: right;
+  font-family: 'Gotham Pro Medium';
+  background:#f8f2e8;
+  line-height: 45px;
+  padding-right: 10%;
+}
+.consult span{
+  color:#b38643;
+  font-family: 'Gotham Pro Bold';
+}
+nav{
+  z-index: 10;
+  background-color: #4f353e;
+  color:#fff;
+  position: relative;
+  height: 45px;
+}
+nav ul{
+  margin: 0;
+}
+nav li{
+  display: inline-block;
+  text-decoration: none;
+  margin-left: 5%;
+  line-height: 40px;
+  text-transform: uppercase;
+  padding: 2px 15px;
+}
+nav li:hover{
+  background-color: #b38643;
+}
+nav li a{
+  font-size: 14px;
+  color:#fff;
+  text-decoration: none;
+}
+nav a:visited{
+  color:#fff;
+}
+.services{
+  margin-top: -30%;
+}
+.services > div{
+  vertical-align:top;
+  width:250px;
+  height: 150px;
+  text-align:center;
+  border: 4px solid #c79955;
+  display: inline-block;
+  margin-left: 4%;
+  margin-top: 2%;
+  color:white;
+  background-position-x:-10px;
+  background-position-y:-10px;
+  background-size: 110%;
+  position: relative;
+}
+.services > div:hover{
+}
+.services a{
+  margin-top:25%;
+  display:inline-block;
+}
+.s1{
+  background: url('Auto_Accidents1.jpg');
+  }
+.s2{
+  background: url('personalinjury3.jpg');
+  }
+.s3{
+  background: url('Law-student-Poonam-Gosrani-2.jpg');
+  }
+.s4{
+  background: url('5de90a61-d5d2-3a4d-a553-7462412879ce.jpg');
+  background-position-y:-40px!important;
+  }
+.s5{
+  background: url('nursing-home-abuse_287x194.jpg');
+  }
+.s6{
+  background: url('accident-construction1.jpg') no-repeat;
+  background-size: 115%!important;
+  background-position-y:0px!important;
+  }
+.s7{
+  background: url('Slip-and-Fall-Lawyers-300x225.jpg');
+  background-size: 100%;
+}
+.s8{
+  background: url('iconmonstr-award-19-icon-2561.png');
+  position: relative;
+}
+.s8 a{
+  margin-top:40%;
+
+}
+.services div > div{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+.services div > div:hover{
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.recent{
+  color:#4f353e;
+  margin-top: -12%;
+padding-top: 11%;
+background-color: #f8f2e8;
+}
+.settlements{
+  margin:7% 0 7% 30%;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.settlements img{
+  margin-bottom: -2%;
+}
+.settlements + img{
+  margin-right: 3%;
+  margin-left: 5%;
+}
+.arrow{
+  margin-left: 3%;
+  padding-top:65px;
+}
+.settlements ~ div{
+  margin-left: 1%;
+  width: 17%;
+  line-height: 20px;
+  padding: 1% 1%;
+  height: 130px;
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  background-color: #fff;
+  margin-bottom: 7%;
+}
+.settlements ~ div span{
+  font-size: 30px;
+}
+
+.welcome{
+  float:left;
+  width:50%;
+  margin-left: 10%;
+  display: inline-block;
+  color:#4f353e;
+  height: 760px;
+}
+.welcome h1{
+  font-size: 24px;
+}
+#ffree{
+  font-size: 30px;
+  font-family: 'Gotham Pro Regular';
+}
+ul{
+  list-style-image: url('check.png');
+  color:#b38643;
+}
+.welcome p{
+  font-family: 'Gotham Pro Regular';
+}
+.sidebar{
+  color:#4f353e;
+  width:30%;
+  display: inline-block;
+  height: 760px;
+  margin-left: 5%;
+  margin-bottom: 10%;
+}
+::-webkit-input-placeholder{
+  font-family: 'Gotham Pro Regular';
+  color:#000;
+}
+.sidebar > div input,textarea{
+  width: 90%;
+  margin-left: 5%;
+  border: 0;
+  border-bottom: 2px solid #b38643;
+  outline:none;
+  height: 30px;
+  margin-top: 5%;
+}
+.sidebar > div{
+  background-color: #fff;
+  border: 1px solid #ccc1bc;
+  margin-bottom: 10%;
+}
+
+.sidebar > div h2{
+  text-align: center;
+  text-transform: uppercase;
+}
+button{
+  text-transform: uppercase;
+height: 40px;
+margin-top: 10%;
+margin-bottom: 10%;
+width: 90%;
+margin-left: 5%;
+border-radius: 4px;
+background-color: #fb9902;
+box-shadow: 0px 5px #d68202;
+border: none;
+color:#fff;
+outline: none;
+text-decoration: none;
+}
+button:hover{
+  text-decoration: none;
+  color:#fff;
+  box-shadow:0px 5px 0px #d68202;
+}
+button:active{
+  text-decoration: none;
+  box-shadow: 0 2px #d68202;
+  transform: translateY(3px);
+}
+.last_topics p{
+  width: 90%;
+  margin-left: 5%;
+  font-family: 'Gotham Pro Regular';
+  border-bottom: 2px solid #b38643;
+}
+.circle{
+  margin-left: 70%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
+.c1{
+    background-color: #4f353e;
+}
+.c1,.c2,.c3{
+  width:20px;
+  border-radius: 50%;
+  height: 20px;
+  margin-left: 5%;
+  display: inline-block;
+}
+.c2,.c3{
+  background-color: #b38643;
+}
+
+.wehave{
+  width: 50%;
+  background-color: #4f353e;
+  float: left;
+  height: 380px;
+}
+.wehave h1{
+  font-size: 30px;
+  color:#fff;
+  text-align: center;
+}
+.wehave ul{
+  width: 30%;
+  color:#fff;
+  margin-left: 10%;
+  list-style-image: url('check2.png');
+  font-family: 'Gotham Pro Regular';
+  display: inline-block;
+}
+.wehave ul li{
+  margin: 10%;
+}
+.mapimg{
+  width: 50%;
+  height: 380px;
+  display: inline-block;
+  background: url('map.png');
+  background-position-x: -400px;
+  background-position-y: -200px;
+}
+.info div{
+  width: 50%;
+  display: inline-block;
+  float: left;
+  font-family: 'Gotham Pro Regular';
+  color:#4f353e;
+  height: 300px;
+  background-color:#f8f2e8;
+}
+.info h1 span{
+  color:#b38643;
+  font-family: 'Gotham Pro Bold';
+}
+.info h1{
+  padding: 15% 15%;
+}
+.info p:first-child{
+  margin-top:15%;
+}
+.info p{
+  padding-right: 20%;
+}
+.aspects{
+  height: 510px;
+  color:#4f353e;
+  font-family: 'Gotham Pro Regular';
+}
+.aspects h1{
+  width: 45%;
+  margin-top: 35%;
+  margin-left: 30%;
+  font-size: 30px;
+  font-weight: 300px;
+}
+.aspects_one,.aspects_two{
+  width: 49.7%;
+  vertical-align: top;
+  display: inline-block;
+}
+.aspects h1 span{
+  color:#4f353e;
+  font-family: 'Gotham Pro Bold';
+}
+.aspects ul{
+  list-style-image: url('arrowul.png');
+}
+.aspects ul li{
+  margin: 5%;
+  color:#4f353e;
+}
+.info2{
+  height: 460px;
+  background-color:#4f353e;
+  color:#fff;
+  font-family: 'Gotham Pro Regular';
+}
+.info2 div{
+  width:40%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 4%;
+}
+.info2 ul{
+  color:#fff;
+  list-style-image: url('rectangle.png');
+}
+.info2 li{
+  margin: 5%;
+}
+.info2 p:nth-child(3){
+  font-size: 30px;
+}
+.info3{
+  background-color: #f8f2e8;
+  color:#4f353e;
+}
+.info3 div,.info4 div{
+  width: 40%;
+  vertical-align: top;
+  display: inline-block;
+  font-family: 'Gotham Pro Regular';
+  padding: 4%;
+}
+.info4{
+  color:#4f353e;
+}
+.info4 h1{
+  margin-left: 36%;
+  width: 32%;
+  font-size: 30px;
+}
+.info4 div p{
+  width:88%;
+  display: inline-block;
+}
+.info4 img{
+  display: inline-block;
+}
+.callnow div{
+  font-family: 'Gotham Pro Regular';
+  width: 49.7%;
+  display: inline-block;
+}
+.callnow p{
+  width:90%;
+  margin-top: 10%;
+  margin-left: 10%;
+}
+.callnow{
+  background: url('logo.png');
+  height: 320px;
+  background-position-y:-25px;
+}
+.certifications{
+  margin-bottom:10%;
+}
+.certifications h1{
+  font-size: 30px;
+  text-transform: uppercase;
+  color:#4f353e;
+  text-align: center;
+}
+.certifications img{
+  height: 150px;
+  margin-left: 5%;
+}
+.certifications img:last-child{
+  height: 100px;
+  margin-bottom: 2%;
+}
+footer{
+  background-color:#4f353e;
+  color:#fff;
+}
+footer h1{
+  margin: 0;
+  text-align: center;
+  line-height: 60px;
+  font-size: 14px;
+}
+
+/*--------------------------------------------BLOG STYLES-----------------------------------*/
+.blog{
+background-color: #f8f2e8;
+color:#4f353e;
+}
+.blog img{
+  margin-top: -5px;
+  margin-left: 3%;
+}
+.blog > h1{
+display: inline-block;
+vertical-align: top;
+margin-left: 70%;
+}
+.headpost{
+  vertical-align: top;
+  display: inline-block;
+  width: 50%;
+}
+.headpost p{
+  font-family: 'Gotham Pro Regular';
+}
+.fallen_dude{
+  width: 40%;
+  display: inline-block;
+  margin-left: 2%;
+}
+.fallen_dude img{
+width: 80%;
+height: 220px;
+}
+.post{
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: 'Gotham Pro Regular';
+  margin-top: 5%;
+}
+#next{
+  float:right;
+  text-decoration:none;
+  color:#b38643;
+  margin-top:3%;
+}
+main{
+  padding-bottom:10%;
+}
+/*--------------------MEDIA QUERIES-------------------------------*/
+@media (max-width:768px) {
+  .headpiece{
+    background-position-x: -340px;
+    height: 500px;
+  }
+  nav{
+    height: auto;
+  }
+  .settlements ~ div,.recent img,.recent span{
+    display: none;
+  }
+  .sidebar , .welcome, .aspects_one, .aspects, .aspects_two{
+    width: 90%;
+    height: auto;
+  }
+  .aspects h1{
+    width:inherit;
+    margin-left: 10%;
+    font-size: 24px;
+  }
+  .services > div{
+    width: 40%;
+  }
+  .info2{,
+    height: auto;
+  }
+  .wehave,.mapimg,.info2{
+    width:100%;
+  }
+  .info3 div{
+    width: 90%;
+    margin-left: 5%;
+    padding: 0;
+  }
+  .info4 h1{
+    width: 90%;
+    margin-left: 5%;
+  }
+  .info4 img{
+    float: left;
+  }
+  .info4 div p{
+    width: 80%;
+  }
+  .info4 p{
+    margin-left: 5%;
+  }
+  .info4 div{
+    width: 90%;
+    margin-left: 1%;
+  }
+  .callnow div{
+    width: 100%;
+  }
+}
+		
